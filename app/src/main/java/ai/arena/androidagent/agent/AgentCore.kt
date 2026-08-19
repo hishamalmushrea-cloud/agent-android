@@ -28,6 +28,7 @@ class ArabicFastPath : LocalCommandParser {
         val s = input.trim().lowercase()
         val action = when {
             s.matches(Regex("(افتح|شغل|دخلني على)\\s+واتس(اب)?|open whatsapp")) -> AgentAction.OpenApp("WhatsApp")
+            s.matches(Regex("(افتح|شغل|دخلني على)\\s+.+")) -> AgentAction.OpenApp(s.replaceFirst(Regex("^(افتح|شغل|دخلني على)\\s+"), "").trim())
             s in listOf("ارجع", "رجوع", "للخلف") -> AgentAction.GoBack
             s in listOf("الرئيسية", "روح الرئيسية", "اذهب للرئيسية") -> AgentAction.GoHome
             s.contains("التطبيقات الأخيرة") || s == "اخر التطبيقات" -> AgentAction.OpenRecents
