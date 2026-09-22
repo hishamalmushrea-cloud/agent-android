@@ -1,3 +1,14 @@
+# agent-android
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/hishamalmushrea-cloud/agent-android?style=social)](https://github.com/hishamalmushrea-cloud/agent-android)
+[![GitHub](https://img.shields.io/github/license/hishamalmushrea-cloud/agent-android)](https://github.com/hishamalmushrea-cloud/agent-android/blob/main/LICENSE)
+[![Trendshift](https://trendshift.io/api/badge/repositories/4119)](https://trendshift.io/)
+[![Docs Website](https://img.shields.io/badge/Docs-Website-blue?style=for-the-badge&logo=readthedocs)](https://github.com/hishamalmushrea-cloud/agent-android)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/hishamalmushrea-cloud?style=social)](https://x.com/hishamalmushrea-cloud)
+
+---
+
 # Android Agent
 
 Android Agent is a Kotlin/Jetpack Compose foundation for a privacy-first, tool-based phone agent. It unifies text and future voice input into a typed plan, permission checks, risk/confirmation, execution, verification, and recovery.
